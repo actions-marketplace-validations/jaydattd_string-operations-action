@@ -7,5 +7,5 @@ outputs:
   toLowerCase:   
   toUperCase:
 runs:
-  using: 'node18'
-  main: 'dist/index.js'
+  using: 'node16'
+  main: 'index.js'
