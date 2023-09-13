@@ -4,7 +4,7 @@ const github = require('@actions/github');
 try {
   
     const stringToConvert = core.getInput('string_to_process');
-    
+    console.log(stringToConvert)
     const lowercase = stringToConvert.toLowerCase();    
     core.setOutput("toLowerCase", lowercase);
 
