@@ -4,15 +4,11 @@ const github = require('@actions/github');
 try {
   
     const stringToConvert = core.getInput('string_to_process');
-    // console.log(`String to process ${stringToConvert}!`);
     
-    
-    const lowercase = stringToConvert.toLowerCase();
-    // console.log(`toLowerCase: ${lowercase}`);
+    const lowercase = stringToConvert.toLowerCase();    
     core.setOutput("toLowerCase", lowercase);
 
-    const uppercase = stringToConvert.toUpperCase();
-    // console.log(`toUperCase: ${uppercase}`);
+    const uppercase = stringToConvert.toUpperCase();    
     core.setOutput("toUperCase", uppercase);
     
     // Get the JSON webhook payload for the event that triggered the workflow
