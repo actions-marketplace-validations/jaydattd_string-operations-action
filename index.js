@@ -6,6 +6,7 @@ try {
     const stringToConvert = core.getInput('string_to_process');
     // console.log(`String to process ${stringToConvert}!`);
     
+    
     const lowercase = stringToConvert.toLowerCase();
     // console.log(`toLowerCase: ${lowercase}`);
     core.setOutput("toLowerCase", lowercase);
