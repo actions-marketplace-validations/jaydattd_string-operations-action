@@ -1,0 +1,11 @@
+name: 'Hello World'
+description: 'Greet someone and record the time'
+inputs:
+  string_to_process:     
+    required: false    
+outputs:
+  toLowerCase:   
+  toUperCase:
+runs:
+  using: 'node18'
+  main: 'dist/index.js'
