@@ -4,11 +4,12 @@ inputs:
   string_to_process:     
     required: true
     default: "Test"
+  function_name:     
+    required: true
+    default: "Test"
 outputs:
-  toLowerCase:
-    description: 'converts to lower case'
-  toUperCase:
-    description: 'converts to upper case'
+  result:
+    description: 'converted string'  
 runs:
   using: 'node16'
   main: 'index.js'
