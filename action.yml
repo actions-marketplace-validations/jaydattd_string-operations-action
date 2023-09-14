@@ -6,7 +6,9 @@ inputs:
     default: "Test"
 outputs:
   toLowerCase:
+    description: 'converts to lower case'
   toUperCase:
+    description: 'converts to upper case'
 runs:
   using: 'node16'
   main: 'index.js'
