@@ -1,5 +1,5 @@
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'Perform string operations'
+description: 'You will be perform string functions'
 inputs:
   string_to_process:     
     required: true
